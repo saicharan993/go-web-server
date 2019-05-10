@@ -1,6 +1,6 @@
 #!/bin/bash
 wget https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz
-tar -zxvf go1.12.5.linux-amd64.tar.gz -C /usr/local
+tar -zxf go1.12.5.linux-amd64.tar.gz -C /usr/local
 echo 'export PATH=$PATH:/usr/local/go/bin' | tee -a /etc/profile
 echo 'export GOROOT=/usr/local/go' | tee -a /etc/profile
 echo 'export GOROOT=/usr/local/go' | tee -a /etc/profile
