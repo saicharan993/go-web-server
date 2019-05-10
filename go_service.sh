@@ -3,7 +3,7 @@ echo "==============================================="
 echo 
 echo " THANK YOU FOR THIS ASSESSMENT "
 echo
-echo "================================================"
+echo "==============================================="
 wget https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz
 tar -zxf go1.12.5.linux-amd64.tar.gz -C /usr/local
 echo 'export PATH=$PATH:/usr/local/go/bin' | tee -a /etc/profile
