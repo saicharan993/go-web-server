@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "==============================================="
 echo 
-echo " THANK YOU FOR THIS ASSESMENT "
+echo " THANK YOU FOR THIS ASSESSMENT "
 echo
 echo "================================================"
 wget https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz
